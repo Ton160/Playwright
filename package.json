@@ -1,0 +1,15 @@
+{
+  "name": "playwright-project",
+  "version": "1.0.0",
+  "description": "My Playwright Tests",
+  "main": "index.js",
+  "dependencies": {
+    "playwright": "^1.43.0",
+    "@playwright/test": "^1.43.0",
+    "jest": "^27.0.6",
+    "chai": "^4.3.4"
+  },
+  "scripts": {
+    "test": "npx playwright test"
+  }
+}
